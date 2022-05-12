@@ -1,0 +1,124 @@
+nav .container-fluid{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.wrapper{
+    margin-right: 25px;
+    margin-left: 25px;
+ 
+}
+.w-78{
+    width: 78%;
+}
+.color-red{
+    color: red;
+}
+
+.wrapper .form-control{
+    padding: 1.25rem 0.75rem;
+}
+.btn-height{
+    width: 100%;
+    height: 56px;
+}
+.df{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    padding-left: 42px;
+}
+.df h1{
+    text-transform: capitalize;
+}
+.df p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.w-100{
+    width: 100%;
+}
+.footer-p{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 0px;
+    color: white;
+}
+.callBtn{
+    width: 100px;
+    padding:1.1rem 0.75rem;
+    
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: #e7f1ff;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.createForm input{
+    padding: 1rem 0.75rem;
+}
+.createForm label{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.createbtn , .updatebtn{
+    margin-top: 10px;
+    width: 100%;
+    height: 45px;
+    font-style: oblique;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: black;
+}
+
+.nav-link {
+   
+    color: black;
+  
+}
+
+.btn-primary {
+    color: #fff;
+    background-color:black;
+    border-color:black;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #39393a;
+    border-color: #39393a;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #57575a;
+}
+
+.btn-link {
+    color: black;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: #6e7072;
+}
+.admin .container{
+    height: 100vh;
+}
+.admin .shadow{
+    box-shadow: .5rem 1.5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+
+    height: 280px;
+}
+#response{
+    color: red;
+    text-transform: capitalize;
+    font-weight: bold;
+}
